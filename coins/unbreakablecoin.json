@@ -1,0 +1,6 @@
+{
+    "name": "Unbreakablecoin",
+    "symbol": "UNB",
+    "algorithm": "sha256",
+    "peerMagic": "833307b1"
+}

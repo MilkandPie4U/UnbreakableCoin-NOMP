@@ -1,0 +1,57 @@
+{
+    "enabled": true,
+    "coin": "unbreakablecoin.json",
+
+    "address": "your_wallet_address",
+
+    "rewardRecipients": {},
+
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 20,
+        "minimumPayment": 0.1,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 9337,
+            "user": "user",
+            "password": "password"
+        }
+    },
+
+    "ports": {
+        "54096": {
+            "diff": 256
+        },
+        "54099": {
+            "diff": 4096
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 9337,
+            "user": "user",
+            "password": "password"
+        }
+    ],
+
+    "p2p": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 9336,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "unb",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}
